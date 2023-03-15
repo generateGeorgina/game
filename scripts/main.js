@@ -6,7 +6,7 @@ let body = document.body;
 // test.appendChild(text);
 
 let roadlines = document.createElement('div');
-// roadlines.setAttribute('class', 'test');
+roadlines.setAttribute('class', 'test');
 for (x = 0; x < 5; x++) {
     let roadlines = document.createElement('div');
     roadlines.setAttribute('id', 'test');
