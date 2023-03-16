@@ -19,9 +19,31 @@
     top: 150px;
 }
 
+.animate {
+    /* jump when called in JavaScript */
+    animation: jump 1s;
+}
+
+@keyframes jump {
+    /* 0% is starting position then moves to 50% at a higher position then back down to starting position at 100% */
+    0%{top: 150px;}
+    50%{top: 100px;}
+    100%{top: 150px;}
+}
+
 #block {
     width: 20px;
     height: 20px;
     background-image: url(/images/emojipoo.svg);
-    /* background-color: aqua; */
+    background-color: rgb(118, 77, 77);
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s infinite linear; /* infinite to repeat, linear for smooth animation */
+}
+
+@keyframes block {
+    /* move obstruction from left to right */
+    0%{left: 480px;}
+    100%{left:-40px;}
 }
