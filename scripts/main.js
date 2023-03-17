@@ -1,12 +1,19 @@
 let character = document.getElementById('character');
 let block = document.getElementById('block');
 let game = document.getElementById('game');
+let score = 0;
+let scoreElement = document.getElementById('score');
+
+
 
 function jumpFunction() {
     // only add class attribute with value animate if it isn't there already
     if (character.classList != 'animate') {
         // Add animate class to the character element when jumpFunction is called
         character.classList.add('animate');
+        score++;
+        console.log(score);
+        scoreElement.innerHTML = "Score: " + score;
     }
     
     // delay by the time it takes for the jump animation to complete and refresh the jump function. Pass in an annonymous function with no parameters and remove the class from the character element in the code block
@@ -28,6 +35,6 @@ let checkGameOver = setInterval(function(){
         block.style.animation = "none";
         block.style.display = "none";
         alert("Game Over");
-    };
+    }
 
 }, 10);

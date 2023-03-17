@@ -2,18 +2,24 @@
     /* select all elements */
     padding: 0;
     margin: 0;
+    background-color: rgb(28, 213, 255);
+    font-family: 'Rubik Iso', cursive;
 }
 
 #game {
     width: 500px;
     height: 200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: rgb(18, 206, 33);
+    margin: auto;
+    margin-top: 100px;
 }
 
 #character {
     width: 20px;
     height: 50px;
     background-image: url("/images/paro_AL_standing.svg");
+    background-color: rgb(18, 206, 33);
     background-size: cover;
     position: relative;
     top: 150px;
@@ -31,12 +37,11 @@
     100%{top: 150px;}
 }
 
-#block {
-    
+#block { 
     width: 20px;
     height: 20px;
-    background-image: url("/images/emojipoo-remix.svg");
-    background-color: rgb(118, 77, 77);
+    background-image: url("/images/58e8fdeeeb97430e819064c2.png");
+    background-color: rgba(118, 77, 77, 0.183);
     position: relative;
     top: 130px;
     left: 480px;
@@ -47,4 +52,10 @@
     /* move obstruction from left to right */
     0%{left: 480px;}
     100%{left:-40px;}
+}
+
+p {
+    width: 500px;
+    margin: auto;
+    text-align: center;
 }
