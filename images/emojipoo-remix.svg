@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="845.43805"
+   height="783.48566"
+   viewBox="0 0 792.59815 734.5178"
+   id="svg26936"
+   version="1.1">
+  <title
+     id="title5595">Emoji Poo remix</title>
+  <defs
+     id="defs26938">
+    <linearGradient
+       id="linearGradient4530">
+      <stop
+         style="stop-color:#945341;stop-opacity:1"
+         offset="0"
+         id="stop4526" />
+      <stop
+         style="stop-color:#53291f;stop-opacity:1"
+         offset="1"
+         id="stop4528" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(1.6077886,0,0,1.7255938,14.295493,-178.48151)"
+       xlink:href="#linearGradient4530"
+       id="linearGradient4532"
+       x1="161.54587"
+       y1="224.35124"
+       x2="418.18604"
+       y2="473.02975"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       height="1"
+       y="0"
+       width="1"
+       x="0"
+       id="filter4880"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4860"
+         stdDeviation="10"
+         result="result6"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite4862"
+         operator="xor"
+         in="result6"
+         in2="SourceGraphic" />
+      <feGaussianBlur
+         id="feGaussianBlur4864"
+         stdDeviation="10"
+         result="result2" />
+      <feComposite
+         id="feComposite4866"
+         result="result91"
+         operator="atop"
+         in2="SourceGraphic" />
+      <feComposite
+         id="feComposite4868"
+         in2="result91"
+         operator="xor"
+         in="result2"
+         result="result4" />
+      <feGaussianBlur
+         id="feGaussianBlur4870"
+         stdDeviation="5"
+         result="result3"
+         in="result4" />
+      <feSpecularLighting
+         id="feSpecularLighting4874"
+         surfaceScale="12"
+         specularConstant="3"
+         specularExponent="35"
+         result="result5"
+         in="result3"
+         lighting-color="#453423">
+        <feDistantLight
+           id="feDistantLight4872"
+           azimuth="235"
+           elevation="45" />
+      </feSpecularLighting>
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite4876"
+         result="result7"
+         operator="arithmetic"
+         k2="0.8"
+         k3="0.7"
+         in="SourceGraphic"
+         in2="result5" />
+      <feComposite
+         id="feComposite4878"
+         in2="SourceGraphic"
+         operator="in"
+         in="result7" />
+    </filter>
+    <filter
+       id="filter5574"
+       style="color-interpolation-filters:sRGB"
+       height="1.1"
+       y="-0.050000001"
+       width="1.1"
+       x="-0.050000001">
+      <feGaussianBlur
+         id="feGaussianBlur5548"
+         stdDeviation="1"
+         in="SourceGraphic"
+         result="result9" />
+      <feTurbulence
+         id="feTurbulence5550"
+         seed="0"
+         result="result7"
+         type="fractalNoise"
+         numOctaves="5"
+         baseFrequency="0.02" />
+      <feColorMatrix
+         id="feColorMatrix5552"
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
+      <feComposite
+         id="feComposite5554"
+         in2="result5"
+         result="result6"
+         operator="out"
+         in="result9" />
+      <feGaussianBlur
+         id="feGaussianBlur5556"
+         result="result11"
+         stdDeviation="0.5" />
+      <feDisplacementMap
+         id="feDisplacementMap5558"
+         in="result5"
+         in2="result11"
+         xChannelSelector="A"
+         yChannelSelector="G"
+         scale="100"
+         result="result4" />
+      <feComposite
+         id="feComposite5560"
+         in2="result4"
+         result="result2"
+         operator="in"
+         in="result9" />
+      <feComposite
+         id="feComposite5562"
+         result="fbSourceGraphic"
+         operator="in"
+         in2="SourceGraphic" />
+      <feBlend
+         id="feBlend5564"
+         in2="fbSourceGraphic"
+         result="fbSourceGraphic"
+         mode="multiply" />
+      <feDiffuseLighting
+         lighting-color="#a07649"
+         id="feDiffuseLighting5568"
+         result="result10"
+         in="fbSourceGraphic"
+         surfaceScale="10"
+         diffuseConstant="0.69999999">
+        <feDistantLight
+           id="feDistantLight5566"
+           azimuth="235"
+           elevation="25" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite5570"
+         in2="fbSourceGraphic"
+         in="result10"
+         result="result2"
+         operator="in" />
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite5572"
+         in2="result2"
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata26941">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Emoji Poo remix</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Openclipart.org</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>https://openclipart.org/</dc:identifier>
+        <dc:source></dc:source>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>https://openclipart.org/detail/283853/pile-of-poo-emoji</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path5544"
+     d="m 326.07298,37.648534 c -20.43434,21.46359 -48.11904,37.74083 -58.27607,68.117136 -5.84782,20.54827 -9.42108,42.49853 -5.0369,63.84024 2.47666,13.4478 6.54314,26.37258 11.26708,39.05168 a 126.32625,123.25671 0 0 0 -71.63137,96.10746 190.63779,202.141 0 0 0 -74.17809,146.61483 213.60621,133.11724 0 0 0 -87.929077,107.4418 213.60621,133.11724 0 0 0 213.606637,133.11683 213.60621,133.11724 0 0 0 98.82563,-15.1731 261.83987,133.11724 0 0 0 137.74854,20.1038 261.83987,133.11724 0 0 0 261.84025,-133.11683 261.83987,133.11724 0 0 0 -56.4359,-82.5352 153.88834,150.37318 0 0 0 1.3126,-18.5367 A 153.88834,150.37318 0 0 0 545.09335,312.39541 87.27995,125.72184 0 0 0 485.89721,205.46928 c 0.13988,-2.234 0.17961,-4.49524 0.0847,-6.78778 0.26691,-21.55179 -13.53861,-40.5347 -31.38956,-49.11541 C 431.72173,137.25895 405.78572,135.38466 381.30608,129.05783 357,120.56202 345.28981,93.564584 337.75448,69.464174 c -4.0946,-9.65908 -6.22705,-26.83156 -11.68158,-31.81564 z"
+     style="opacity:1;fill:#945341;fill-opacity:1;stroke:none;stroke-width:9.9939003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5574)" />
+  <path
+     style="opacity:0.95;fill:url(#linearGradient4532);fill-opacity:1;stroke:none;stroke-width:9.9939003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4880)"
+     d="m 326.07299,37.648554 c -20.43434,21.46359 -48.11904,37.74083 -58.27607,68.117136 -5.84782,20.54827 -9.42108,42.49853 -5.0369,63.84024 2.47666,13.4478 6.54314,26.37258 11.26708,39.05168 A 126.32625,123.25671 0 0 0 202.39573,304.76507 190.63779,202.141 0 0 0 128.21764,451.3799 213.60621,133.11724 0 0 0 40.288563,558.8217 213.60621,133.11724 0 0 0 253.8952,691.9385 a 213.60621,133.11724 0 0 0 98.82563,-15.1731 261.83987,133.11724 0 0 0 137.74854,20.1038 261.83987,133.11724 0 0 0 261.84024,-133.1168 261.83987,133.11724 0 0 0 -56.4359,-82.5352 153.88834,150.37318 0 0 0 1.3126,-18.5367 A 153.88834,150.37318 0 0 0 545.09336,312.39543 87.27995,125.72184 0 0 0 485.89722,205.4693 c 0.13988,-2.234 0.17961,-4.49524 0.0847,-6.78778 0.26691,-21.55179 -13.53861,-40.5347 -31.38956,-49.11541 -22.87062,-12.30714 -48.80663,-14.18143 -73.28627,-20.50826 -24.30608,-8.49581 -36.01627,-35.493246 -43.5516,-59.593656 -4.0946,-9.65908 -6.22705,-26.83156 -11.68158,-31.81564 z"
+     id="path27550" />
+  <g
+     style="stroke-width:2"
+     id="g4522"
+     transform="matrix(1.6077886,0,0,1.7255938,18.297723,-200.9714)">
+    <g
+       style="stroke-width:2"
+       id="g4512">
+      <ellipse
+         ry="46.80851"
+         rx="38.297871"
+         cy="322.57498"
+         cx="185.10638"
+         id="path27568"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse27570"
+         cx="272.34042"
+         cy="320.44733"
+         rx="38.297871"
+         ry="46.80851" />
+      <ellipse
+         ry="20.212767"
+         rx="15.957447"
+         cy="319.96298"
+         cx="190.1638"
+         id="path27572"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse27574"
+         cx="264.37018"
+         cy="319.38348"
+         rx="15.957447"
+         ry="20.212767" />
+    </g>
+    <g
+       style="stroke-width:2"
+       id="g4506">
+      <path
+         d="m 353.19151,393.00943 a 118.08511,63.608089 0 0 1 -60.58719,55.55829 118.08511,63.608089 0 0 1 -119.58935,-1.45348 118.08511,63.608089 0 0 1 -55.87351,-56.97376 l 117.96494,2.86895 z"
+         id="path27576"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path27578"
+         d="m 237.04688,409.53516 a 81.488998,30.928299 0 0 0 -43.54493,4.61914 81.488998,30.928299 0 0 0 -38.34179,24.15625 l -0.27149,-0.004 a 80.563454,19.647591 0 0 0 0.006,1.50195 81.488998,30.928299 0 0 0 0.0488,2.04883 l 0.66211,-0.0117 a 80.563454,19.647591 0 0 0 37.40234,14.0586 80.563454,19.647591 0 0 0 81.58985,0.44922 80.563454,19.647591 0 0 0 41.07617,-15.89063 h 2.16406 a 81.488998,30.928299 0 0 0 -41.80859,-27.01562 81.488998,30.928299 0 0 0 -38.98242,-3.91211 z"
+         style="opacity:1;fill:#d74d83;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
