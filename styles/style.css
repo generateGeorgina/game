@@ -42,7 +42,7 @@
     width: 40px;
     height: 40px;
     background-color: rgb(18, 206, 33);
-    background-image: url("/images/emojipoo.svg");
+    background-image: url("/emojipoo.svg");
     background-size: cover;
     background-position: center;
     /* background-color: rgba(118, 77, 77, 0.183); */
