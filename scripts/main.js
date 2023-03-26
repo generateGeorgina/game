@@ -34,7 +34,7 @@ let checkGameOver = setInterval(function(){
         //remove block
         block.style.animation = "none";
         block.style.display = "none";
-        alert("Game Over");
+        alert("Game Over. Refresh page to play again.");
     }
 
 }, 10);
